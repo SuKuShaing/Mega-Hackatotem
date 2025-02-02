@@ -19,3 +19,18 @@ To-Do List: 1.Main Quest 1: -Ver como montar la librería 'Face recognition' de 
 Main Quest 2: -Montar una BD para almacenar los datos recopilados de la app.
 
 Main Quest 3:
+
+## Cómo correr el proyecto
+
+### Ejecutar el backend python
+1. Clonar el repositorio
+2. Moverse en la terminar hasta la carpeta "backend" para ejecutar el entorno virtual e instalar las dependencias
+3. Usando python 3.9, 3.10, 3.11 o 3.12, no más recientes, crea tu entorno virtual con `python -m venv venv`
+4. Activa tu entorno virtual en windows con `source venv\Scripts\activate` o en mac con `source venv/bin/activate`
+5. Instala las dependencias con `pip install -r requirements.txt`
+6. ahora puedes correr el proyecto con `python app.py`
+
+
+### Ejecutar el frontend
+1. Moverse en la terminal hasta la carpeta "frontend" para instalar las dependencias con `npm install`
+2. Ejecutar el proyecto con `npm run dev`
